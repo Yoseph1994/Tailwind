@@ -9,14 +9,25 @@
   </head>
   <body>
     <!-- Container -->
-    <div>
+    <div class="bg-purple-400 text-white container mx-auto p-10">
       <article>
-        <h3>Article One</h3>
+        <h3>Container</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem laboriosam libero molestiae recusandae accusantium
-          voluptates? Expedita dignissimos amet eveniet dolore nobis odio a
-          sunt, maiores quasi. Modi amet quos dolores!
+          Max Width Control: The container class sets the max-width of an
+          element to match the min-width of the current breakpoint. This is
+          particularly useful for designing layouts that adapt to a fixed set of
+          screen sizes rather than trying to accommodate a fully fluid viewport.
+          This approach ensures that content remains readable and visually
+          appealing across different devices. <br />
+          Horizontal Centering: While Tailwind's container does not center
+          itself automatically, it can be easily centered using the mx-auto
+          utility class. This combination (container mx-auto) creates a centered
+          container that adjusts its width according to the viewport's minimum
+          width at the current breakpoint. <br />
+          Padding: Unlike some other frameworks, Tailwind's container does not
+          come with built-in horizontal padding. However, you can add padding
+          manually using utility classes like px-4 to increase the spacing
+          around the content inside the container.
         </p>
       </article>
 
